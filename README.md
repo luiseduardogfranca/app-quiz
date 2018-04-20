@@ -1,1 +1,1 @@
-# Application of the quizz developed with Ionic
+# Application of the quiz developed with Ionic
