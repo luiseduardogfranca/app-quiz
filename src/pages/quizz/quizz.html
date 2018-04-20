@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Boa sorte, {{name}}!
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item *ngFor="let i of [1,2]">
+    {{i}}
+    <ion-list>
+        <ion-list-header>
+          Questão {{i}}
+        </ion-list-header>
+        {{questions[i]}}
+        <!-- <ion-label>{{answers[i][0][0]}}</ion-label> -->
+        <ion-radio checked="true" value="go"></ion-radio>
+      </ion-list>
+  </ion-item>
+
+</ion-content>
